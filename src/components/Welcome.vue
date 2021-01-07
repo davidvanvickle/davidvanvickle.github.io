@@ -1,9 +1,6 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>
-      This is a VueJS on Github Pages test.
-    </p>
   </div>
 </template>
 

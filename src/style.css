@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+
+body {
+    font-family: 'Slabo 13px', serif;
+}
+
+h1 {
+    @apply text-2xl;
+}
+
+h2 {
+    @apply text-4xl;
+}
+
+h3 {
+    @apply text-3xl;
+}
+
+.question {
+    @apply text-2xl;
+}
+
+.answers a:hover {
+    @apply text-gray-500;
+}
+
+.btn {
+    @apply px-6 py-3 shadow-md rounded-md m-6;
+}
+
+.btn:hover {
+    @apply bg-gray-100;
+}
+

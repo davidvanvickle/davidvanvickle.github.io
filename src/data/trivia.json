@@ -1,0 +1,126 @@
+{
+	"answers": ["C","D","A","C","D","B","B","A","C","D","D","B"],
+	"questions": [
+		{
+			"q": "What German composer was played by Gary Oldman in the film \"Immortal Beloved\"?",
+			"a": "C",
+			"mc": {
+				"C": "Beethoven",
+				"A": "Rammstein",
+				"B": "Mozart",
+				"D": "Haydn"
+			}
+		},
+		{
+			"q": "What is the fear, or hatred, of books called?",
+			"a": "D",
+			"mc": {
+				"D": "Bibiophobia",
+				"A": "Acrophobia",
+				"B": "Cynophobia",
+				"C": "Papyrafilia"
+			}
+		},
+		{
+			"q": "Who devised the towering framework that supports the \"Statue of Liberty\"?",
+			"a": "A",
+			"mc": {
+				"A": "Alexandre-Gustave Eiffel",
+				"B": "Frank Lloyd Wright",
+				"C": "Renzo Piano",
+				"D": "Philip Johnson"
+			}
+		},
+		{
+			"q": "What can a lycanthrope do?",
+			"a": "C",
+			"mc": {
+				"C": "Change into a wolf",
+				"A": "Interpret a fable",
+				"B": "Tell lies without remorse",
+				"D": "Tune musical instruments"
+			}
+		},
+		{
+			"q": "What is Jon's last name in the \"Garfield\" comics?",
+			"a": "D",
+			"mc": {
+				"D": "Arbuckle",
+				"A": "Smith",
+				"B": "Peters",
+				"C": "Strauss"
+			}
+		},
+		{
+			"q": "What century did Rembrandt live in?",
+			"a": "B",
+			"mc": {
+				"B": "17th",
+				"A": "20th",
+				"C": "19th",
+				"D": "8th"
+			}
+		},
+		{
+			"q": "Which great Renaissance artist designed the dome of St. Peter's Basilica in Rome?",
+			"a": "B",
+			"mc": {
+				"B": "Michelangelo",
+				"A": "Machiavelli",
+				"C": "Ghiberti",
+				"D": "Masaccio"
+			}
+		},
+		{
+			"q": "Where did Aristotle believe the seat of intelligence was?",
+			"a": "A",
+			"mc": {
+				"A": "Heart",
+				"B": "Feet",
+				"C": "Mind",
+				"D": "Hands"
+			}
+		},
+		{
+			"q": "What does the Latin phrase \"ad hoc\" literally mean?",
+			"a": "C",
+			"mc": {
+				"C": "To this",
+				"A": "In fact",
+				"B": "In faith",
+				"D": "For truth"
+			}
+		},
+		{
+			"q": "Who is the Roman goddess of hunting?",
+			"a": "D",
+			"mc": {
+				"D": "Diana",
+				"A": "Artemis",
+				"B": "Nike",
+				"C": "Hera"
+			}
+		},
+		{
+			"q": "Who is \"the Lord\" referred to in the title \"Lord of the Rings\"?",
+			"a": "D",
+			"mc": {
+				"D": "Sauron",
+				"A": "Gollum",
+				"B": "Frodo",
+				"C": "Gandalf"
+			}
+		},
+		{
+			"q": "In what novel is the language Nadset spoken?",
+			"a": "B",
+			"mc": {
+				"B": "A Clockwork Orange",
+				"A": "1984",
+				"C": "Brave New World",
+				"D": "Don Quixote"
+			}
+		}
+	]
+}
+
