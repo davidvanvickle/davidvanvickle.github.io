@@ -1,24 +1,24 @@
 <template>
-    <div class="my-6 w-6/12 mx-auto">
+    <div class="my-6 md:w-6/12 mx-auto max-w-screen-sm">
         <h2 class="mt-6">Quiz</h2>
         <div v-if="answeringQuestions" class="mt-6 shadow-xl rounded-md px-12 py-6">
             <h4 class="question my-6">{{ question }}</h4>
-            <ul class="answers my-6 text-left border-t-2 pt-12">
-                <li><a href="#" @click="selectAnswer('A')">A. {{ answers.A }}</a></li>
-                <li><a href="#" @click="selectAnswer('B')">B. {{ answers.B }}</a></li>
-                <li><a href="#" @click="selectAnswer('C')">C. {{ answers.C }}</a></li>
-                <li><a href="#" @click="selectAnswer('D')">D. {{ answers.D }}</a></li>
+            <ul class="answers my-6 text-left border-t-2 pt-12 text-lg mx-auto w-8/12">
+                <li class="my-2"><a href="#" @click="selectAnswer('A')">A. {{ answers.A }}</a></li>
+                <li class="my-2"><a href="#" @click="selectAnswer('B')">B. {{ answers.B }}</a></li>
+                <li class="my-2"><a href="#" @click="selectAnswer('C')">C. {{ answers.C }}</a></li>
+                <li class="my-2"><a href="#" @click="selectAnswer('D')">D. {{ answers.D }}</a></li>
             </ul>
-            <p>{{ pagination }}</p>
+            <p class="mt-12">{{ pagination }}</p>
         </div>
         <div v-if="!answeringQuestions" class="my-6 shadow-xl rounded-md px-12 py-6">
-            <h3>Results</h3>
+            <h3>{{ resultMessage }}</h3>
             <div>Correct: {{ correct.length }}</div>
             <div>Incorrect: {{ incorrect.length }}</div>
             <div>
                 <button class="btn" @click="tryAgain()">Try Again</button>
             </div>
-            <p class="mb-6">{{ resultMessage }}</p>
+            <!-- <p class="mb-6">{{ resultMessage }}</p> -->
             <div v-for="q in trivia.questions" :key="q.q" class="text-left mb-3">
                 {{ q.q }}<br>
                 <strong>{{ q.mc[q.a] }}</strong>
